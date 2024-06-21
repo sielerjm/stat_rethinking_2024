@@ -1,0 +1,31 @@
+---
+title: "Install_Libraries"
+author: "Michael Sieler"
+date: "2024-03-26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Statistical Rethinking
+
+```{r}
+
+BiocManager::install(c("ape", "bayesplot", "brms", "broom", "dagitty", "devtools", "flextable", "GGally", "ggdag", "ggdark", "ggmcmc", "ggrepel", "ggthemes", "ggtree", "ghibli", "gtools", "invgamma", "loo", "patchwork", "posterior", "psych", "rcartocolor", "Rcpp", "remotes", "rstan", "santoku", "StanHeaders", "statebins", "tidybayes", "tidyverse", "viridis", "viridisLite", "wesanderson"), update = FALSE)
+
+# BiocManager::install(c(), update = FALSE)
+
+```
+
+```{r}
+devtools::install_github("stan-dev/cmdstanr")
+devtools::install_github("EdwinTh/dutchmasters")
+devtools::install_github("gadenbuie/ggpomological")
+devtools::install_github("GuangchuangYu/ggtree")
+devtools::install_github("rmcelreath/rethinking")
+devtools::install_github("UrbanInstitute/urbnmapr")
+```
+
+

@@ -1,0 +1,16 @@
+---
+title: "Chapter 01"
+author: "Your Name Here"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document: 
+    toc: yes
+    toc_depth: 3
+    number_sections: yes
+    theme: united
+    highlight: tango
+  pdf_document: 
+    toc: yes
+    toc_depth: '3'
+    
+---
