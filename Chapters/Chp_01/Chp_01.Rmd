@@ -1,6 +1,6 @@
 ---
 title: "Chapter 01"
-author: "Your Name Here"
+author: "Michael Sieler"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_document: 
